@@ -846,7 +846,33 @@
   </div>
 </nav>
 
-<div id="app"></div>
+<div id="app">
+  <div class="page-header">
+      <h1 class="page-title">Contact Us</h1>
+    </div>
+    <div class="about-body">
+      <div class="about-sec">
+        <p class="about-sec-label">Get in touch</p>
+        <div>
+          <div class="about-sec-body">
+            <p>
+              We welcome correspondence regarding this website, such as corrections to factual errors, missing entries, or any additional documentation that could improve the accuracy
+              of the archive.
+            </p>
+            <p>
+              Enquiries regarding the history of Medusa Pictures and its associated
+              labels are also welcome.
+            </p>
+            <p>
+              <strong>Email:</strong> <a href="mailto:contact@medusapictures.co.uk"
+              style="color:var(--text);text-decoration:underline;text-underline-offset:3px;">
+              contact@medusapictures.co.uk</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
 
 <!-- FOOTER -->
 <footer>
@@ -889,11 +915,8 @@
   document.addEventListener('DOMContentLoaded', function() {
     setActiveNav();
     const app = document.getElementById('app');
-    app.className = '';
-    void app.offsetWidth;
     app.className = 'page-enter';
     window.scrollTo(0, 0);
-    renderContact(app);
     document.getElementById('footer-year').textContent = new Date().getFullYear();
   });
 </script>
