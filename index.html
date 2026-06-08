@@ -906,7 +906,106 @@
   </div>
 </nav>
 
-<div id="app"></div>
+<div id="app">
+  <div class="home-hero">
+      <div class="home-hero-inner">
+        <div>
+          <h1 class="home-hero-title">
+            Medusa<br><em>Pictures</em>
+          </h1>
+        </div>
+        <div>
+          <p class="home-hero-lead">
+            An archival project documenting the release history of London-based <b>Medusa Pictures</b>
+            and its associated labels — a catalogue of British home-video distribution
+            started in the 1980s and active until the late 2000s.
+          </p>
+          <div class="home-hero-dividers">
+            <div class="hero-div-item" onclick="go('catalogue/medusa')">
+              <span class="hero-div-name" style="color:var(--medusa)">Medusa Pictures</span>
+              <span class="hero-div-period">1980s – 2000s</span>
+            </div>
+            <div class="hero-div-item" onclick="go('catalogue/pegasus')">
+              <span class="hero-div-name" style="color:var(--pegasus)">Pegasus Home Video</span>
+              <span class="hero-div-period">mid-1980s</span>
+            </div>
+            <div class="hero-div-item" onclick="go('catalogue/newdim')">
+              <span class="hero-div-name" style="color:var(--newdim)">New Dimension Home Video</span>
+              <span class="hero-div-period">1986 — 1988</span>
+            </div>
+            <div class="hero-div-item" onclick="go('catalogue/hkl')">
+              <span class="hero-div-name" style="color:var(--hkl)">Hong Kong Legends</span>
+              <span class="hero-div-period">1999 — 2007</span>
+            </div>
+            <div class="hero-div-item" onclick="go('catalogue/premier')">
+              <span class="hero-div-name" style="color:var(--premier)">Premier Asia</span>
+              <span class="hero-div-period">2003 — 2008</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-divisions">
+      <div class="div-block" style="--ac:var(--medusa); --ac-bg:var(--medusa-bg);" onclick="go('catalogue/medusa')">
+        <p class="div-num">Main Label</p>
+        <h2 class="div-name">Medusa<br>Pictures</h2>
+        <span class="div-period-tag">1980s – early 1990s</span>
+        <p class="div-desc">
+          The founding label. A wide-ranging catalogue of international movies and series distributed across the United Kingdom throughout three decades of activity.<br>These include diverse classics such as <i>Misery</i>, Sergio Leone's <i>My Name is Nobody</i>, <i>Teenage Mutant Ninja Turtles</i>, <i>Sabrina the Teenage Witch</i>, <i>C.H.U.D.</i>, and the famous TV adaptation of <i>A Christmas Carol</i> by CBS.
+        </p>
+        <span class="div-cta">Browse catalogue →</span>
+      </div>
+      <div class="div-block" style="--ac:var(--pegasus); --ac-bg:var(--pegasus-bg);" onclick="go('catalogue/pegasus')">
+        <p class="div-num">Label II</p>
+        <h2 class="div-name">Pegasus<br>Home Video</h2>
+        <span class="div-period-tag">mid-1980s</span>
+        <p class="div-desc">
+          A short-lived label under Medusa Pictures, releasing a small number of
+          action titles on VHS with distribution handled by PolyGram Video.
+        </p>
+        <span class="div-cta">Browse catalogue →</span>
+      </div>
+      <div class="div-block" style="--ac:var(--newdim); --ac-bg:var(--newdim-bg);" onclick="go('catalogue/newdim')">
+        <p class="div-num">Label III</p>
+        <h2 class="div-name">New<br>Dimension</h2>
+        <span class="div-period-tag">1986 — 1988</span>
+        <p class="div-desc">
+          A joint venture with Guild Home Video, releasing international genre
+          and action titles on VHS across the United Kingdom under a shared
+          distribution arrangement.
+        </p>
+        <span class="div-cta">Browse catalogue →</span>
+      </div>
+      <div class="div-block" style="--ac:var(--hkl); --ac-bg:var(--hkl-bg);" onclick="go('catalogue/hkl')">
+        <p class="div-num">Label IV</p>
+        <h2 class="div-name">Hong Kong<br>Legends</h2>
+        <span class="div-period-tag">1999 — 2007</span>
+        <p class="div-desc">
+          A dedicated label for Hong Kong martial arts and action cinema, presenting
+          remastered editions with exclusive new content across more than a hundred DVD's and box sets for collectors and fans.
+        </p>
+        <span class="div-cta">Browse catalogue →</span>
+      </div>
+      <div class="div-block" style="--ac:var(--premier); --ac-bg:var(--premier-bg);" onclick="go('catalogue/premier')">
+        <p class="div-num">Label V</p>
+        <h2 class="div-name">Premier<br>Asia</h2>
+        <span class="div-period-tag">2003 – 2008</span>
+        <p class="div-desc">
+          The group's later distribution arm, releasing contemporary Asian action
+          and genre titles throughout the 2000s.
+        </p>
+        <span class="div-cta">Browse catalogue →</span>
+      </div>
+    </div>
+
+    <div class="home-mission">
+      <p class="home-mission-label">Purpose</p>
+      <p class="home-mission-body">
+        This project exists to <b>document and preserve</b> the complete history of Medusa Pictures and its many labels, and to provide a <b>complete catalogue</b> of their releases.<br>If any mistakes are found, please contact us through this page: <strong><a href="contact.html">Contact Us</a></strong>.
+      </p>
+    </div>
+</div>
 
 <!-- FOOTER -->
 <footer>
@@ -949,11 +1048,8 @@
   document.addEventListener('DOMContentLoaded', function() {
     setActiveNav();
     const app = document.getElementById('app');
-    app.className = '';
-    void app.offsetWidth;
     app.className = 'page-enter';
     window.scrollTo(0, 0);
-    renderHome(app);
     document.getElementById('footer-year').textContent = new Date().getFullYear();
   });
 </script>
