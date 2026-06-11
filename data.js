@@ -3101,7 +3101,7 @@ const FILMS_MEDUSA  = [
     g:  'Family / Fantasy / Comedy',
     f:  'DVD',
     s:  'A teenage witch moves in with her aunts and must learn to master her magical powers while navigating the equally unpredictable world of high school.',
-    n:  '<i>Sabrina the Teenage Witch</i> was released in the UK as a DVD in 2004, the same year Medusa Communications & Marketing was fully acquired by <b>Contender Entertainment Group</b> (now eOne UK). Interestingly, while Medusa Communications was legally credited by the BBFC as the distributor of this DVD, there are absolutely no mention of their name on the DVD cover itself. Instead, it was credited to Contender, and uses a \'CTD\' catalogue number.<br>Based on the eponymous comic book series by Archie Comics, this film premiered on the Showtime network in the United States in 1996, and served as a pilot to what became the successful sitcom, spanning 7 seasons in total.',
+    n:  '<i>Sabrina the Teenage Witch</i> was released in the UK as a DVD in 2004, the same year Medusa Communications & Marketing was fully acquired by <b>Contender Entertainment Group</b> (now eOne UK). Interestingly, while Medusa Communications was legally credited by the BBFC as the distributor of this DVD, there are no mentions of their name on the DVD cover itself. Instead, the DVD was credited to Contender, and uses a \'CTD\' catalogue number.<br>Based on the eponymous comic book series by Archie Comics, this film premiered on the Showtime network in the United States in 1996, and served as a pilot to what became the successful sitcom, spanning 7 seasons in total.',
     },
 
     {
