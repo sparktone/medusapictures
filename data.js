@@ -782,7 +782,7 @@ const FILMS_MEDUSA  = [
     g:  'Horror / Science fiction',
     f:  'Theatrical',
     s:  'A rash of disappearances leads into a sewer full of mutated cannibals.',
-    n:  'The earliest known theatrical release by Medusa, released under the <i>Medusa Communications and Marketing</i> banner, exactly 10 years before that name was legally incorporated.<br>A cult classic, it has been referenced many times in popular media, and is known nowadays as the origin of the pejorative term <i>chud</i> referring to someone with far-right political views.',
+    n:  'The earliest known theatrical release by Medusa, released under the <i>Medusa Communications and Marketing</i> trading name, exactly 10 years before that name was formally incorporated as a company.<br>A cult classic, it has been referenced many times in popular media, and is known nowadays as the origin of the pejorative term <i>chud</i> referring to someone with far-right political views.',
     },
 
     {
