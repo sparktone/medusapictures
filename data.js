@@ -60,7 +60,7 @@ const FILMS_MEDUSA  = [
     genre:    'Horror',
     format:   'VHS',
     synopsis: 'A murderous mutant terrorises a town after escaping a medical experiment.',
-    n:        "This controversial film was originally released by Medusa uncut.<br>To comply with growing censorship pressures, they withdrew the uncut tape in 1983 and replaced it with a version cut by 2 minutes and a half, severely editing the most extreme scenes. But despite Medusa trying to cooperate, the Department of Public Prosecutions banned the video from the UK that same year.<br>Today, Medusa's original uncut tapes — featuring an identical sleeve design — are highly sought after by collectors, with a high resale value.",
+    n:        "This controversial film was originally released by Medusa uncut.<br>To comply with growing censorship pressures, they withdrew the uncut tape in 1983 and replaced it with a version cut by 2 and a half minutes, severely editing the most extreme scenes. But despite Medusa trying to cooperate, the Department of Public Prosecutions banned the video from the UK that same year.<br>Today, Medusa's original uncut tapes — featuring an identical sleeve design — are highly sought after by collectors, with a high resale value.",
     },
 
     {
@@ -440,7 +440,7 @@ const FILMS_MEDUSA  = [
     g:  'Action',
     f:  'VHS',
     s:  'An Australian policewoman teams up with a streetwise New York detective to take down a ruthless drug lord who hides behind a veneer of respectability.',
-    n:  'It was released by Medusa Pictures only one year before its sequel (though some sources indicate a release year of 1993, which might imply a possible second edition of this film by Medusa). For reasons unknown, this release is part of the \'MC\' catalogue numbering, while its sequel is part of the \'M\' catalogue.',
+    n:  'It was released by Medusa Pictures only one year before its sequel (though some sources indicate a release year of 1993, possibly indicating a second edition of this film by Medusa). For reasons unknown, this release is part of the \'MC\' catalogue numbering, while its sequel is part of the \'M\' catalogue.',
     },
 
     {
@@ -484,7 +484,7 @@ const FILMS_MEDUSA  = [
     co: 'United States / Canada',
     g:  'Action / Thriller',
     f:  'VHS',
-    s:  'On their way home from Brooklyn, psychiatrist Vic, daughter Julie and sister Stacey run short of gas. They leave the highway to search for a petrol station - but end up erring around in South Bronx. A youth gang led by the sadistic Ice stops their car and starts terrorizing them. Without fuel, the 3 women soon have to flee by foot and defend their life with all means possible.',
+    s:  'On their way home from Brooklyn, psychiatrist Vic, daughter Julie and sister Stacey run short of gas. They leave the highway to search for a petrol station - but end up wandering around in South Bronx. A youth gang led by the sadistic Ice stops their car and starts terrorizing them. Without fuel, the 3 women soon have to flee by foot and defend their life with all means possible.',
     },
 
     {
@@ -1725,7 +1725,7 @@ const FILMS_MEDUSA  = [
     g:  'War / Drama',
     f:  'VHS',
     s:  'The story of the legendary Australian Light Horse charge at Beersheba in 1917, following the young soldiers who risked everything in one of the most audacious cavalry attacks in military history.',
-    n:  'About 13 minutes were cut from the UK release of this film.<br>While the film was considered a commercial disappointment, it won two Australian Film Institute awards in 1988.',
+    n:  'About 13 minutes were cut from the British release.<br>While the film was considered a commercial disappointment, it won two Australian Film Institute awards in 1988.',
     },
 
     {
